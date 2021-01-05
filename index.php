@@ -55,7 +55,7 @@ if($query->num_rows > 0){
 }else{ ?>
     <p>No image(s) found...</p>
 <?php } ?>
-        <p>Salam  <?=$_COOKIE['user']?>.Siz gotler qrupuna daxil olduzun.Cixmaq ucun <a href="exit.php">Gotem</a> Duymesini basin.</p> 
+        <p>Salam  <?=$_COOKIE['user']?>.Siz qeydiyyatdan kecdiniz.Cixmaq ucun <a href="exit.php">Cixis</a> Duymesini basin.</p> 
       <?php endif;?>
       <script src="js.js"></script>
 </body>
